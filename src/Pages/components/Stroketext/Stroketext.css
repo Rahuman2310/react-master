@@ -1,0 +1,22 @@
+.process{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+ }
+ .process-header{
+     display: flex;
+     font-weight: bold;
+     font-size: 3rem;
+     text-transform: uppercase;
+     gap: 5rem;
+     color: white;
+     font-style: italic;
+     justify-content: center;
+ }
+ .storke-text-1{
+     color: transparent;
+     font-family: Arial, Helvetica, sans-serif;
+     -webkit-text-stroke-width:1px ;
+     -webkit-text-stroke-color:white ;
+ }

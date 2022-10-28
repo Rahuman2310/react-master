@@ -1,0 +1,52 @@
+.process{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   
+   
+}
+.process-header{
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    gap: 2rem;
+    color: red;
+    font-style: italic;
+    justify-content: center;
+    padding-top:16rem ;
+    padding:10rem;
+    
+   
+}
+.storke-text-1{
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width:1px ;
+    -webkit-text-stroke-color:white ;
+}
+.programs-categories{
+    display: flex;
+    gap: 2rem;
+}
+.catogory{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+}
+.catogory>:nth-child(1){
+    width: 2rem;
+    height: 2rem;fill: white;
+}
+.join-now{
+    display: flex;
+    gap: 2rem;
+}
+.catogory:hover{
+    background:orangered;
+    cursor: pointer;
+}

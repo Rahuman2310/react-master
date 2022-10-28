@@ -1,0 +1,170 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.right-h{
+    flex: 1;
+    position:relative;
+    background-color: orange;
+}
+.the-best-ad{
+    margin-top: 4rem;
+    background-color: rgb(17, 19, 19);
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color:white;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.the-best-ad>span{
+    z-index: 2;
+    font-size:14px;
+}
+.the-best-ad>div{
+    position: absolute;
+    background-color: orangered;
+    width: 5.4rem;
+    height: 80%;
+    border-radius: 3rem;
+    left: 8px;
+    z-index: 1;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    gap: 1.5rem;
+    color: white;
+    text-overflow: inherit;
+}
+.storke-text{
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width:1px ;
+    -webkit-text-stroke-color:orangered ;
+}
+.hero-description{
+   font-size: 1rem;
+   font-weight: 200;
+   text-transform: none;
+   letter-spacing: 1px; 
+   width: 80%;
+   color:white;
+}
+.hero-title{
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px; 
+    width: 80%;
+    color:red; 
+}
+.figures{
+    display: flex;
+    gap: 2rem;
+    font-size: 16px;
+}
+.figures>div{
+    display: flex;
+    flex-direction: column;
+}
+.figures>div>span:nth-of-type(1){
+    color: white;
+    font-size: 2rem;
+}
+.figures>div>span:nth-of-type(2){
+    color:goldenrod;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: azure;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: 4px solid transparent;
+    transition: 300ms all;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.hero-button{
+    display: flex;
+    gap: 2rem;
+    font-weight: normal;
+}
+.hero-button>:nth-child(1){
+    color: white;
+    background-color: orangered;
+    width: 8rem;
+}
+.hero-button>:nth-child(2){
+    color: white;
+    background-color:transparent;
+    width: 8rem;
+    border: 2px solid orangered;
+}
+.right-h>.btn{
+    position: relative;
+    right: 3rem;top: 2rem;color: black; 
+}
+.heart-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color:brown;
+    width: fit-content;
+    padding: 1rem;
+    align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    top: 7rem;
+    right: 3rem;
+
+}
+.aproches{
+    color: aquamarine;
+    font-weight: bold;
+}
+.hero-image{
+    position: absolute;
+    top: 13rem;
+    right: 8rem;
+    width: 25rem;
+}
+.hero_image_back{
+    position:absolute;
+    top: 4rem;
+    right: 20rem;
+    width: 15rem;
+    z-index: -1;
+}
+.calories{
+    display: flex;
+    gap: 2rem;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 44rem;
+    right: 34rem;
+}
+
+.App-logo {
+    animation: hero-image-spin infinite 20s linear;
+    
+  }

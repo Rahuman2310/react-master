@@ -1,0 +1,65 @@
+.Scripttext{
+    padding: 0 2rem;
+    padding-top:5rem;
+    display: flex;
+    grid-template: 2rem;
+    gap: 3rem;
+}
+
+
+.left-t{
+    flex: 1 1;
+    text-transform: uppercase;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.right-headline{
+    font-weight: bold;
+    font-size: 1rem;
+    color: orangered;
+}
+.stroke-text{
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width:1px ;
+    -webkit-text-stroke-color:white ;
+    font-size: 3rem;
+}
+.sub-text{
+    gap: 2rem;
+    font-size: 3rem;
+     color: aliceblue;
+    font-weight: bold;
+}
+
+.script-description{
+    color:goldenrod;
+    font-size: 1rem;
+}
+
+.details-v{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.details-v>div{
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.right-t>img{
+    height: 32rem;
+    width: 24rem;
+    flex: 1 1;
+    right: 5rem;
+}
+.form-validation{
+   
+    height: 2rem;
+    width: 10rem;
+}
