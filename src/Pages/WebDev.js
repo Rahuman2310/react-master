@@ -23,6 +23,7 @@ const WebDev = () => {
       <div className='portfolio-head'>
           <span>Web App Development</span>
       </div>
+
       <div className='carrer-content'>
         <h1 style={{color:"orangered",fontSize:"32px",}} >Nimatooz Smile Mobility pvt ltd.</h1>
         
@@ -35,7 +36,7 @@ const WebDev = () => {
              languages, tools, technologies and frameworks..</p>
             <button className="btn" style={{backgroundColor:"red",color:"white"}}> Get started</button> 
       </div>
-      <div className='Scripttext'>
+      <div className='centered-div'>
         <div className='left-p'>
             
             <h1 style={{color:"orangered",fontSize:"32px",}} >Web app Development</h1>
@@ -73,40 +74,33 @@ const WebDev = () => {
         </div>
       </div>
       <div className='portfolio-list'>
+     
       <div classname="contact-row" >
            
             
             <div className='web-category'>
-            <img src="./images/ui.jpg" alt="" style={{width:"300px",height:"8rem",borderRadius:"30px 30px"}}/>
-               <h3 style={{color:"red",textAlign:"center"}}>UI/UX Design</h3><br/>
-               <span>User experience design sits at the intersection of content,
-                 prototyping, implementation and design. We live at that point as 
-                 a UX design company to offer trend-setting and industry-leading UX design 
-                 services to our clients.</span>
+            
+               <h3 className="product-head" style={{color:"red",textAlign:"center"}}>UI/UX Design</h3><br/>
+               
             </div>
           </div>
           <div classname="contact-row" >
           <div className='web-category'>
-          <img src="./images/ui.jpg" alt="" style={{width:"300px",height:"8rem",borderRadius:"30px 30px"}}/>
-               <h3 style={{color:"red",textAlign:"center"}}>Update And Maintanance</h3><br/>
-               <span>We provide full services for the project from start to end and we even 
-                offer our best services like support and maintenance after the product launch
-                 and delivery.</span>
+          
+               <h3 className="product-head" style={{color:"red",textAlign:"center"}}>Update And Maintanance</h3><br/>
+               
             </div>
           </div>
           <div classname="contact-row" >
           <div className='web-category'>
-          <img src="./images/ui.jpg" alt="" style={{width:"300px",height:"8rem",borderRadius:"30px 30px"}}/>
-               <h3 style={{color:"red",textAlign:"center"}}>Landing Page</h3><br/>
-               <span>In digital marketing, a landing page is a standalone web page,
-                 created specifically for a marketing or advertising campaign. It’s
-                  where a visitor “lands” after they click on a link in an email, or
-                   ads from Google web.</span>
+          
+               <h3 className="product-head" style={{color:"red",textAlign:"center"}}>Landing Page</h3><br/>
+               
             </div>
           </div>
         </div>
         
-      <div className='Scripttext'>
+      <div className='centered-div'>
         <div className='left-p'>
             <div className="product-img">
                 <img src="./images/team2.jpg" alt="" style={{width:"38rem",borderRadius:"30px 30px"}}/>
@@ -114,8 +108,8 @@ const WebDev = () => {
         </div>
         <div className='right-t'>
             
-            <h1 style={{color:"orangered",fontSize:"32px",}} >Custom Development</h1>
-            <p style={{color:"white",fontSize:"20px",}}>We are full-fledged in web 
+            <h1 style={{color:"orangered",fontSize:"35px",}} >Custom Development</h1>
+            <p style={{color:"white",fontSize:"24px",}}>We are full-fledged in web 
             Development, able to create any type of custom apps, Whether it’s simple
              or large complex programs, our skilled developers integrate business intelligence
               with your ideas and make your operations smoother.</p>
@@ -123,11 +117,11 @@ const WebDev = () => {
             
         </div>
       </div>
-      <div className='Scripttext'>
+      <div className='centered-div'>
         <div className='left-p'>
             
-            <h1 style={{color:"orangered",fontSize:"32px",}} >Goal Focused</h1>
-            <p style={{color:"white",fontSize:"20px",}}>Every business built with
+            <h1 style={{color:"orangered",fontSize:"35px",}} >Goal Focused</h1>
+            <p style={{color:"white",fontSize:"24px",}}>Every business built with
              a purpose and targeted audience differs. When people visiting your website, 
              they will to do some action to navigate. Those actions will be smooth
               and engaging if your website is perfectly structured and well organized for your niche. </p>
@@ -148,8 +142,8 @@ const WebDev = () => {
         </div>
         <div className='right-t'>
             
-            <h1 style={{color:"orangered",fontSize:"32px",}} >User Dashboard</h1>
-            <p style={{color:"white",fontSize:"20px",}}>Our experienced programming 
+            <h1 style={{color:"orangered",fontSize:"35px",}} >User Dashboard</h1>
+            <p style={{color:"white",fontSize:"24px",}}>Our experienced programming 
             team can handle all types of open source platforms to build, code, migrate
              and rebuild your applications. It will reduce your developing cost and gives
               more features and security than web development.</p>
@@ -160,8 +154,8 @@ const WebDev = () => {
       <div className='Scripttext'>
         <div className='left-p'>
             
-            <h1 style={{color:"orangered",fontSize:"32px",}} >Admin Dashboard</h1>
-            <p style={{color:"white",fontSize:"20px",}}>While this trend is rather 
+            <h1 style={{color:"orangered",fontSize:"35px",}} >Admin Dashboard</h1>
+            <p style={{color:"white",fontSize:"24px",}}>While this trend is rather 
             popular in all areas of web design; dashboards really take the cake.
              A dashboard is meant to be used by a smaller group of people with a
               set of specific tasks in mind. These tasks may include checking data, 
@@ -196,7 +190,7 @@ const WebDev = () => {
             <input type="text" placeholder='Email' className='form-text' name="user_email"/>
           </div>
           <div className='right-p'>
-            <input type="text"placeholder='Phone Number' className='form-text' name="user_phone_number"/><br/><br/><br/>
+            <input type="text" placeholder='Phone Number' className='form-text' name="user_phone_number"/><br/><br/><br/>
             <input type="text" placeholder='Place' className='form-text' name="message"/>
           </div>
           

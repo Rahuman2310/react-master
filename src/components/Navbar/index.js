@@ -13,7 +13,7 @@ const Navbar = () => {
        
       
         <NavMenu>
-        <img src="./images/nimatooz_smile_logo.png"  alt="" style={{width:"300px",height:"fit-content",paddingRight:"100px"}}/>
+        <img src="./images/nimatooz_smile_logo.png"  alt="" style={{width:"300px",height:"fit-content",float:"left"}}/>
           <NavLink to="/index" activeStyle>
             Home
           </NavLink>

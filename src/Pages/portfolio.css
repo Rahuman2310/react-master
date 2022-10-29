@@ -16,8 +16,9 @@
   .portfolio-list{
     display:flex;
     gap:3rem;
-    padding-left: 100px;
     padding-top: 50px;
+    align-items: center;
+    justify-content: center;
   }
   .catogory-2{
     

@@ -31,19 +31,19 @@ const Portfolio = () => {
           <div classname="row-1">
             <img src="./images/lonestar.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
             <div className='catogory-2'>
-               <h3>LoneStar</h3>
+               <h3 style={{color:"yellow"}}>LoneStar</h3>
             </div>
           </div>
           <div classname="row-1">
             <img src="./images/midstar.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
             <div className='catogory-2'>
-               <h3>Midstar</h3>
+               <h3 style={{color:"yellow"}}>Midstar</h3>
             </div>
           </div>
           <div classname="row-1">
            <img src="./images/thenorthtrans_portfolio.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
            <div className='catogory-2'>
-               <h3>The North Transportation</h3>
+               <h3 style={{color:"yellow"}}>The North Transportation</h3>
             </div>
           </div>
         </div>
@@ -51,19 +51,19 @@ const Portfolio = () => {
           <div classname="row-1">
              <img src="./images/joice-motorss.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
              <div className='catogory-2'>
-               <h3>Joyce Motor Group</h3>
+               <h3 style={{color:"yellow"}}>Joyce Motor Group</h3>
             </div>
           </div>
           <div classname="row-1">
             <img src="./images/load-trustee3.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
             <div className='catogory-2'>
-               <h3>Load Trustee</h3>
+               <h3 style={{color:"yellow"}}>Load Trustee</h3>
             </div>
           </div>
           <div classname="row-1">
            <img src="./images/VWDS.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
            <div className='catogory-2'>
-               <h3>Village Women’s Development Society</h3>
+               <h3 style={{color:"yellow"}}>Village Women’s Development Society</h3>
             </div>
           </div>
         </div>
@@ -71,19 +71,19 @@ const Portfolio = () => {
           <div classname="row-1">
              <img src="./images/EC.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
              <div className='catogory-2'>
-               <h3>Elitecuts - Meat Shop Online</h3>
+               <h3 style={{color:"yellow"}}>Elitecuts - Meat Shop Online</h3>
             </div>
           </div>
           <div classname="row-1">
             <img src="./images/FMS.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
             <div className='catogory-2'>
-               <h3>FOCUS Management Consultants</h3>
+               <h3 style={{color:"yellow"}}>FOCUS Management Consultants</h3>
             </div>
           </div>
           <div classname="row-1">
            <img src="./images/mech-tech.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
            <div className='catogory-2'>
-               <h3>Mech-Tech Insurance Surveyors</h3>
+               <h3 style={{color:"yellow"}}>Mech-Tech Insurance Surveyors</h3>
             </div>
           </div>
         </div>
@@ -91,19 +91,19 @@ const Portfolio = () => {
           <div classname="row-1">
              <img src="./images/cloud-0transport.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
              <div className='catogory-2'>
-               <h3>The Cloud Transport</h3>
+               <h3 style={{color:"yellow"}}>The Cloud Transport</h3>
             </div>
           </div>
           <div classname="row-1">
             <img src="./images/gp-portfolio.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
             <div className='catogory-2'>
-               <h3>Popular Foundations </h3>
+               <h3 style={{color:"yellow"}}>Popular Foundations </h3>
             </div>
           </div>
           <div classname="row-1">
            <img src="./images/poseidon.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
            <div className='catogory-2'>
-               <h3>Poseidon Aquatic Club</h3>
+               <h3 style={{color:"yellow"}}>Poseidon Aquatic Club</h3>
             </div>
           </div>
         </div>
@@ -111,19 +111,19 @@ const Portfolio = () => {
           <div classname="row-1">
              <img src="./images/sk-electricals.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
              <div className='catogory-2'>
-               <h3>Sk Electrical services</h3>
+               <h3 style={{color:"yellow"}}>Sk Electrical services</h3>
             </div>
           </div>
           <div classname="row-1">
             <img src="./images/stepstones-screenshoots.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
             <div className='catogory-2'>
-               <h3>Stepstones Academy</h3>
+               <h3 style={{color:"yellow"}}>Stepstones Academy</h3>
             </div>
           </div>
           <div classname="row-1">
            <img src="./images/jp-export-import.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
            <div className='catogory-2'>
-               <h3>Jp Export and Imports </h3>
+               <h3 style={{color:"yellow"}}>Jp Export and Imports </h3>
             </div>
           </div>
         </div>
@@ -131,13 +131,13 @@ const Portfolio = () => {
           <div classname="row-1">
              <img src="./images/scs catering.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
              <div className='catogory-2'>
-               <h3>Shanmuga Catering Service</h3>
+               <h3  style={{color:"yellow"}}>Shanmuga Catering Service</h3>
             </div>
           </div>
           <div classname="row-1">
             <img src="./images/sbp-photography.jpg" alt="" style={{width:"20rem",borderRadius:"30px 30px"}}/>
             <div className='catogory-2'>
-               <h3>SBP Photography Studio</h3>
+               <h3  style={{color:"yellow"}}>SBP Photography Studio</h3>
             </div>
           </div>
           
@@ -155,9 +155,9 @@ const Portfolio = () => {
         <p style={{color:"white",fontSize:"20px",}}>The POS is that the central component for your business; it’s the hub where everything
          like sales, inventory and customer managementmerges.</p>
          <form ref={form} onSubmit={sendEmail}>
-         <div className='product-form'>
-         <textarea type="text"  placeholder='write your messages' className='contact-form' style={{height:"100px"}} name="message"/>
-        
+         <div className='portfolio-form'>
+         <textarea type="text"  placeholder='write your messages' className='contact-form' style={{height:"100px"}} name="message"/><br/>
+        <br/><br/>
         <button className='product-btn' value="send">submit</button>
         </div>
         </form>

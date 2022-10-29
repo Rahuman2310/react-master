@@ -3,7 +3,8 @@ import "./Scripttext.css"
 
 const Scripttext = () => {
   return (
-    <div className="Scripttext" id='Scripttext'>
+    <div className="Scripttext" >
+        <div className='centered-div'>
         <div className="left-t">
             <span className='right-headline'>WHAT WE DO</span>
             <div className='sub-text'>
@@ -38,10 +39,7 @@ const Scripttext = () => {
             <img src="./images/itstaff1.png" alt="" />
             
         </div>
-        <div>
-
         </div>
-        <div></div>
         
     </div>
   )

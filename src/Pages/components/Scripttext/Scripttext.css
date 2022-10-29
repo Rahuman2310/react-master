@@ -4,8 +4,20 @@
     display: flex;
     grid-template: 2rem;
     gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    
 }
-
+.centered-div{
+    padding: 0 2rem;
+    padding-top:5rem;
+    display: flex;
+    grid-template: 2rem;
+    gap: 3rem;
+    display:flex;
+    width:90%;
+}
 
 .left-t{
     flex: 1 1;

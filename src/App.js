@@ -20,8 +20,8 @@ return (
 	<Router>
 	<Navbar />
 	<Routes>
-		<Route exact path='/index'   element={<Home />} />
-		
+		<Route exact path='/'   element={<Home />} />
+		<Route  path='/index'   element={<Home />} />
 		<Route path='/product' element={<Product/>} />
 		<Route path='/portfolio' element={<Portfolio />} />
 		<Route path='/blog' element={<Blog />} />

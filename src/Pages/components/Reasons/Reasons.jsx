@@ -5,7 +5,7 @@ import ParticleComponent from './Particles'
 const Reasons = () => {
   return (
     <div className="Reasons" id="reasons">
-       
+       <div className='centered-div' style={{gap:"3rem"}}>
         <div className="left-r">
             <img src="./images/Reason-img-1.png" alt="" />
             <img src="./images/process-grp.jpg" alt="" />
@@ -44,14 +44,9 @@ const Reasons = () => {
                 <span>Domain Registration</span>
             </div>
             </div>
-            <span className='partners'>our partners</span>
-                <div className="our-partners">
-                    <img src="./images/cinehub1.png" alt="" />
-                    <img src="./images/north-transportation1.png" alt="" />
-                    <img src="./images/lonestar-1.png" alt="" />
-                    
-                </div>
+            
         
+        </div>
         </div>
     </div>
   )

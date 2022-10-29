@@ -2,6 +2,8 @@
     padding: 0 2rem;
     display: flex;
     grid-template: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 .left-r{
     flex: 1 1;

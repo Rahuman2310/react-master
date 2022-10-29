@@ -2,6 +2,7 @@ export const menuItems = [
  
     {
       title: 'Services',
+      color:'white',
       /*url: '/services',*/
       submenu: [
         {

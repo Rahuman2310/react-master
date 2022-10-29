@@ -19,6 +19,7 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           console.log("message sent")
+          
       }, (error) => {
           console.log(error.text);
           alert("oops ..Enter the valid details")
@@ -26,6 +27,7 @@ const Contact = () => {
   };
   return (
     <div className='contacts'>
+
        <video className="video" src={videoBg} autoplay='true' loop muted />
       <div className='portfolio-head'>
           <span>Contact Us</span>
@@ -35,8 +37,10 @@ const Contact = () => {
         
         <span style={{color:"orangered",fontSize:"36px",}}>Get in Touch With Nimatooz Smile Mobility </span>
         </div>
-        <div className='Scripttext'>
-      <div className='left-p'>
+       
+        <div className='Scripttext' >
+        <div className='centered-div'>
+      <div className='left-t'>
         <div className="product-img">
             <img src="./images/contact1.jpg" alt="" style={{width:"38rem",borderRadius:"30px 30px"}}/>
         </div>
@@ -54,7 +58,7 @@ const Contact = () => {
         
       </div>
       </div>
-      
+      </div>
        
       <div className='portfolio-list'>
       <div classname="contact-row" >
