@@ -6,7 +6,7 @@ const Process = () => {
   <div className="process" id="process">
     
     <div className="process-header">
-      <img src="./images/tick.png" alt="" />
+      
       <span className='storke-text-1'>Enjoy </span> 
       <span>Service</span>
       <span className='storke-text-1'>Mobility </span>

@@ -1,17 +1,20 @@
 import videoBg from "./images/video.mp4"
+import './index.css'
+import styled from "styled-components";
+import { keyframes } from "styled-components";
 const WebDesign = () => {
     return (
         <>
     <div className='web'>
     <video className="video" src={videoBg} autoplay='true' loop muted />
       <div className='portfolio-head'>
-          <span>Web Design</span>
+      <span><AnimatedGradientText>Web Design</AnimatedGradientText></span>
       </div>
       <div className="centered-div"></div>
       <div className='carrer-content'>
         <h1 style={{color:"orangered",fontSize:"32px",}} >Nimatooz Smile Mobility pvt ltd.</h1>
         
-        <span style={{color:"orangered",fontSize:"36px",}}>Web Design Company </span>
+        <span style={{color:"yellow",fontSize:"36px",}}>Web Design Company </span>
         <p style={{color:"white",fontSize:"20px",}}>If you looking for a unique professional web design for your business, Nimatooz<br/>
          Smile Mobility Pvt Ltd is one of the best web design companies in Chennai. we<br/>
           craft a unique and eye-pleasing design for your website We ensure your digital<br/>
@@ -127,3 +130,28 @@ const WebDesign = () => {
   };
   
   export default WebDesign;
+  const hue = keyframes`
+ from {
+   -webkit-filter: hue-rotate(0deg);
+ }
+ to {
+   -webkit-filter: hue-rotate(-360deg);
+ }
+`;
+const AnimatedGradientText = styled.h1`
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: ${hue} 10s infinite linear;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-feature-settings: "kern";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+`;

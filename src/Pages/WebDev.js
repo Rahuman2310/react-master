@@ -1,6 +1,8 @@
 import videoBg from "./images/video.mp4"
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import styled from "styled-components";
+import { keyframes } from "styled-components";
 const WebDev = () => {
   const form = useRef();
   
@@ -10,10 +12,22 @@ const WebDev = () => {
     emailjs.sendForm('service_ajoxrbs', 'template_rel9skf', form.current, 'lHblZ0ys5Z4cgv1AQ')
       .then((result) => {
           console.log(result.text);
-          console.log("message sent")
+          swal({
+            title: "Thank You",
+            text: "Your message send successfully",
+            icon: "success",
+            button: "ok",
+          });
+          
       }, (error) => {
           console.log(error.text);
-          alert("oops ..Enter the valid details")
+          swal({
+            title: "Sorry..!",
+            text: "check your details",
+            icon: "error",
+            button: "ok",
+            
+          });
       });
   };
     return (
@@ -21,13 +35,13 @@ const WebDev = () => {
     <div className='web'>
     <video className="video" src={videoBg} autoplay='true' loop muted />
       <div className='portfolio-head'>
-          <span>Web App Development</span>
+      <span><AnimatedGradientText>Web App Developement</AnimatedGradientText></span>
       </div>
 
       <div className='carrer-content'>
         <h1 style={{color:"orangered",fontSize:"32px",}} >Nimatooz Smile Mobility pvt ltd.</h1>
         
-        <span style={{color:"orangered",fontSize:"36px",}}>Web App Development Company</span>
+        <span style={{color:"yellow",fontSize:"36px",}}>Web App Development Company</span>
         <p style={{color:"white",fontSize:"20px",}}>Nimatooz Smile mobility Pvt Ltd is the best web application<br/>
          development companies in Chennai. We develop all kinds of B2B,B2C enterprises web portals and also we offer<br/>
           custom web development services to our clients based on their business requirements with stunning results.<br/>
@@ -233,3 +247,29 @@ const WebDev = () => {
   };
   
   export default WebDev;
+
+  const hue = keyframes`
+ from {
+   -webkit-filter: hue-rotate(0deg);
+ }
+ to {
+   -webkit-filter: hue-rotate(-360deg);
+ }
+`;
+const AnimatedGradientText = styled.h1`
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: ${hue} 10s infinite linear;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-feature-settings: "kern";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+`;

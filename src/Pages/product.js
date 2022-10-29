@@ -3,6 +3,9 @@ import React from 'react'
 import './index.css';
 import  { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import TextField from '@mui/material/TextField'
+import styled from "styled-components";
+import { keyframes } from "styled-components";
 const product = () => {
   const form= useRef();
   
@@ -12,10 +15,22 @@ const product = () => {
     emailjs.sendForm('service_ajoxrbs', 'template_rel9skf', form.current, 'lHblZ0ys5Z4cgv1AQ')
       .then((result) => {
           console.log(result.text);
-          console.log("message sent")
+          swal({
+            title: "Thank You",
+            text: "Your message send successfully",
+            icon: "success",
+            button: "ok",
+          });
+          
       }, (error) => {
           console.log(error.text);
-          alert("oops ..Enter the valid details")
+          swal({
+            title: "Sorry..!",
+            text: "check your details",
+            icon: "error",
+            button: "ok",
+            
+          });
       });
   };
   return (
@@ -23,7 +38,7 @@ const product = () => {
     <div className='products'>
     <video className="video" src={videoBg} autoplay='true' loop muted />
       <div className='portfolio-head'>
-        <span>Product</span>
+      <span><AnimatedGradientText>Product</AnimatedGradientText></span>
       </div>
       <div className='Scripttext'>
       <div className='left-p'>
@@ -83,6 +98,7 @@ const product = () => {
           
         </div><br/><br/>
         <button className='product-btn' value="send" >submit</button>
+        
         </form>
       </div>
       </div>
@@ -120,3 +136,29 @@ const product = () => {
 }
 
 export default product
+
+const hue = keyframes`
+ from {
+   -webkit-filter: hue-rotate(0deg);
+ }
+ to {
+   -webkit-filter: hue-rotate(-360deg);
+ }
+`;
+const AnimatedGradientText = styled.h1`
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: ${hue} 10s infinite linear;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-feature-settings: "kern";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+`;

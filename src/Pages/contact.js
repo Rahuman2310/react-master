@@ -8,7 +8,9 @@ import { mail } from 'react-icons-kit/icomoon/mail'
 import { sphere } from 'react-icons-kit/icomoon/sphere'
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import swal from "sweetalert";
+import styled from "styled-components";
+import { keyframes } from "styled-components";
 const Contact = () => {
   const form = useRef();
   
@@ -18,11 +20,22 @@ const Contact = () => {
     emailjs.sendForm('service_ajoxrbs', 'template_rel9skf', form.current, 'lHblZ0ys5Z4cgv1AQ')
       .then((result) => {
           console.log(result.text);
-          console.log("message sent")
+          swal({
+            title: "Thank You",
+            text: "Your message send successfully",
+            icon: "success",
+            button: "ok",
+          });
           
       }, (error) => {
           console.log(error.text);
-          alert("oops ..Enter the valid details")
+          swal({
+            title: "Sorry..!",
+            text: "check your details",
+            icon: "error",
+            button: "ok",
+            
+          });
       });
   };
   return (
@@ -30,7 +43,7 @@ const Contact = () => {
 
        <video className="video" src={videoBg} autoplay='true' loop muted />
       <div className='portfolio-head'>
-          <span>Contact Us</span>
+      <span><AnimatedGradientText>Contact</AnimatedGradientText></span>
       </div>
       <div className='carrer-content'>
         <h1 style={{color:"orangered",fontSize:"32px",}} >Contact Us</h1>
@@ -52,7 +65,7 @@ const Contact = () => {
       <input type="text" placeholder='Your Email Address' className='contact-form' name='user_email' required/><br/>
       <input type="text" placeholder='Your Phone Number' className='contact-form' name='user_phone_number' required /><br/>
       <textarea placeholder='write your messages' className='contact-form' name='message' style={{height:"100px"}} requiredrequired/>
-      <button className='product-btn' value="Send">submit</button>
+      <button className='product-btn' value="Send" >submit</button>
       </form>
       </div><br/>
         
@@ -124,7 +137,7 @@ const Contact = () => {
           </div>
           <div classname="contact-row" >
             <div style={{color:"red", paddingTop:"50px"}}>
-            <Icon size={'50px'} icon={sphere}/>
+              <Icon size={'50px'} icon={sphere}/>
             </div><br/>
             
             <div className='catogory-2'>
@@ -169,3 +182,29 @@ const Contact = () => {
 }
 
 export default Contact
+
+const hue = keyframes`
+ from {
+   -webkit-filter: hue-rotate(0deg);
+ }
+ to {
+   -webkit-filter: hue-rotate(-360deg);
+ }
+`;
+const AnimatedGradientText = styled.h1`
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: ${hue} 10s infinite linear;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-feature-settings: "kern";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+`;

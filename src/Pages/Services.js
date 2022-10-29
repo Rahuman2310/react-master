@@ -1,14 +1,9 @@
-import { Link } from 'react-router-dom';
+import React from 'react'
 
 const Services = () => {
   return (
-    <>
-      <h2>Services page</h2>
+    <div>Services</div>
+  )
+}
 
-      <Link to="/web-design">Web design</Link>
-      <Link to="/seo">Seo</Link>
-    </>
-  );
-};
-
-export default Services;
+export default Services
