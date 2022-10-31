@@ -4,12 +4,12 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import ParticleComponent from "./Particles.js";
 import './Hero.css'
-import videoBg from "./images/video.mp4"
+
 const Hero = () => {
     const transition = {type:"spring", duration :3}
   return (
     <>
-    <ParticleComponent className="part" style={{}}/>
+
     <div className="hero">
    
         <div className='left-h'>

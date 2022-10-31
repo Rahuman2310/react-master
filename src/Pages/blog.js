@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import './portfolio.css'
 import videoBg from "./images/video.mp4" 
 import styled from "styled-components";
 import { keyframes } from "styled-components"; 
-const Blog = () => {
+
+function Blog () {
+
+  
   return (
     <>
       <div className='blogs'>
@@ -78,7 +81,11 @@ const Blog = () => {
             <div className="logo-f">
                  <img src="./images/nimatooz_smile_logo2.png" alt="" />
             </div>
+
+         
+
           </div>
+         
 
         </div>
       </div>

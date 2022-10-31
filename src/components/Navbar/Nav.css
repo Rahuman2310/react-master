@@ -22,6 +22,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
+    padding: 0 0rem;
   }
   
   .menu-items {
@@ -32,20 +33,27 @@ body {
   .menu-items a {
     display: block;
     font-size: inherit;
-    color: inherit;
+    color:  #4d4dff;
     text-decoration: none;
   }
-  
+  .menu-items a:active{
+    color:  #4d4dff;
+  }
+
   .menu-items button {
     display: flex;
     align-items: center;
-    color: inherit;
+    color:  #fff;
     font-size: inherit;
     border: none;
     background-color: transparent;
     cursor: pointer;
     width: 100%;
   }
+  .menu-items button:active {
+    color:  #ffff00;
+  }
+  
   
   button span {
     margin-left: 1px;
@@ -58,7 +66,7 @@ body {
   
   .menu-items a:hover,
   .menu-items button:hover {
-    background-color: #f2f2f2;
+    background-color: "";
   }
   
   .arrow::after {
@@ -79,7 +87,7 @@ body {
       0 4px 6px -2px rgba(71, 63, 79, 0.16);
     font-size: 0.875rem;
     z-index: 9999;
-    min-width: 10rem;
+    min-width: 11rem;
     padding: 0.5rem 0;
     list-style: none;
     background-color: #fff;
@@ -97,19 +105,4 @@ body {
     top: -7px;
   }
   
-  /* content */
-  
-  .content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3rem 20px;
-  }
-  
-  .content h2 {
-    margin-bottom: 1rem;
-  }
-  
-  .content a {
-    color: #cc3852;
-    margin-right: 10px;
-  }
+ 
