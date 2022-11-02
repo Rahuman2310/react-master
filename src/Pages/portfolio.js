@@ -170,7 +170,7 @@ const Portfolio = () => {
          like sales, inventory and customer managementmerges.</p>
          <form ref={form} onSubmit={sendEmail}>
          <div className='portfolio-form'>
-         <textarea type="text"  placeholder='write your messages' className='contact-form' style={{height:"100px"}} name="message"/><br/>
+         <textarea type="text"  placeholder='write your messages' className='contact-form-portfolio' style={{height:"100px"}} name="message"/><br/>
         <br/><br/>
         <button className='product-btn' value="send">submit</button>
         </div>

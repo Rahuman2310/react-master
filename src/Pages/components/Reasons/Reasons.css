@@ -5,6 +5,9 @@
     align-items: center;
     justify-content: center;
 }
+.centered-div{
+    display:flex;
+}
 .left-r{
     flex: 1 1;
     display: grid;
@@ -87,3 +90,41 @@
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
   }
+
+
+  /*responsive*/
+@media screen and (max-width:600px) {
+.Reasons{
+    flex-direction: column;
+    
+    padding:1rem;
+    
+}
+.centered-div{
+    flex-direction: column;
+}
+.left-r>img{
+    width: 500px;
+    height:8rem;
+   
+}
+.left-r>:nth-child(1){
+    width: 6rem;
+   
+    height: 18rem;
+    margin-right: 30%;
+}
+.left-r>:nth-child(2){
+    width: 10rem;
+    height: 18rem;  
+}
+.sub-text>span{
+    font-size:2rem;
+}
+.right-r{
+    padding-top: 20%;
+}
+.details-r>div{
+    font-size: small;
+}
+}

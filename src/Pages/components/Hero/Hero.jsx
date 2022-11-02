@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
         <div className='right-h'> 
             
-            
+
             <motion.div 
                 initial={{right:'-1rem'}}
                 whileInView={{right:'4rem'}}
@@ -61,8 +61,7 @@ const Hero = () => {
 
             className="heart-rate">
                 <img src="./images/heart.png" alt="" />
-                <span className='aproches' >start your<br/> business</span> 
-                
+                <span className='aproches' >start your<br/> business</span>    
             </motion.div>
             <div className="hero">
                 <img src="./images/hero.png" alt="" className='hero-image' />

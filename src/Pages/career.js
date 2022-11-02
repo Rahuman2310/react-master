@@ -16,7 +16,7 @@ const career = () => {
         <span style={{color:"orangered",fontSize:"36px",}}>Our Current Openings </span>
         <p style={{color:"white",fontSize:"20px",}}>If you are interested in any of the below positions, apply directly using the <br/>form below or email your resume to <span>hello@smilemobility.in</span> quoting the Job<br/> Reference ID in the subject line.</p>
       </div>  
-      <div className="plans" style={{padding:"8rem"}}>
+      <div className="plans-carrer" style={{padding:"8rem"}}>
       <div className='catogory-1' style={{height:"4rem"}}>
          <span>Web Designer</span>
          

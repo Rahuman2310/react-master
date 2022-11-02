@@ -54,7 +54,7 @@ const Contact = () => {
         <div className='Scripttext' >
         <div className='centered-div'>
       <div className='left-t'>
-        <div className="product-img">
+        <div className="product-img-contact">
             <img src="./images/contact1.jpg" alt="" style={{width:"38rem",borderRadius:"30px 30px"}}/>
         </div>
       </div>
@@ -75,40 +75,40 @@ const Contact = () => {
        
       <div className='portfolio-list'>
       <div classname="contact-row" >
-            <div style={{color:"red", paddingTop:"50px",width:"150px"}}>
+            <div style={{color:"red", paddingTop:"50px",paddingLeft:"40px"}}>
             <Icon size={'50px'} icon={location2}/>
             </div><br/>
             
             <div className='catogory-2'>
                <h3 style={{color:"yellow"}}>Our Register Address</h3><br/>
-               <span>No 213/3, Mookudi Road<br/>
+               <span >No 213/3, Mookudi Road<br/>
                   Opp Vijaya Complex<br/>
-                  Aranthangi (TK), Pudukkottai - 614 616<br/>
+                  Aranthangi (TK),<br/> Pudukkottai - 614 616<br/>
                   Tamil Nadu,India. </span>
             </div>
           </div>
           <div classname="contact-row" >
-            <div style={{color:"red", paddingTop:"50px"}}>
+            <div style={{color:"red", paddingTop:"50px",paddingLeft:"40px"}}>
             <Icon size={'50px'} icon={location2}/>
             </div><br/>
             
             <div className='catogory-2'>
                <h3 style={{color:"yellow"}}>Our Register Address</h3><br/>
-              <span>No 103, Agraharam Street<br/>
+              <span >No 103, Agraharam Street<br/>
                 Anjaneyar Pillaiyar Temple Near<br/>
-                Aranthangi (TK), Pudukkottai - 614 616<br/>
+                Aranthangi (TK), <br/>Pudukkottai - 614 616<br/>
                 Tamil Nadu,India.  </span>
             </div>
           </div>
           <div classname="contact-row" >
-            <div style={{color:"red", paddingTop:"50px"}}>
+            <div style={{color:"red", paddingTop:"50px",paddingLeft:"40px"}}>
             <Icon size={'50px'} icon={location2}/>
             </div><br/>
             
             <div className='catogory-2'>
                <h3 style={{color:"yellow"}}>Our Register Address</h3><br/>
                 <span>715-A<br/>
-                7th Floor, spencer plaza, Suit No.894<br/>
+                7th Floor, spencer plaza, <br/>Suit No.894<br/>
                 Mound road, Anna Salai<br/>
                 Chennai 600 002. </span> 
             </div>
@@ -116,7 +116,7 @@ const Contact = () => {
         </div>
         <div className='portfolio-list'>
         <div classname="contact-row" >
-            <div style={{color:"red", paddingTop:"50px"}}>
+            <div style={{color:"red", paddingTop:"50px",paddingLeft:"40px"}}>
             <Icon size={'50px'} icon={phone}/>
             </div><br/>
             
@@ -126,7 +126,7 @@ const Contact = () => {
             </div>
           </div>
           <div classname="contact-row" >
-            <div style={{color:"red", paddingTop:"50px"}}>
+            <div style={{color:"red", paddingTop:"50px",paddingLeft:"40px"}}>
             <Icon size={'50px'} icon={mail}/>
             </div><br/>
             
@@ -136,7 +136,7 @@ const Contact = () => {
             </div>
           </div>
           <div classname="contact-row" >
-            <div style={{color:"red", paddingTop:"50px"}}>
+            <div style={{color:"red", paddingTop:"50px",paddingLeft:"40px"}}>
               <Icon size={'50px'} icon={sphere}/>
             </div><br/>
             

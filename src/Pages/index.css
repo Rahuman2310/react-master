@@ -29,9 +29,9 @@
   
 }
 .product-head{
-  display: flex;
+     display: flex;
      font-weight: bold;
-     font-size: 3rem;
+     font-size: 1rem;
      padding-left: 50px;
      padding-top:30px;
      gap: 5rem;
@@ -63,7 +63,7 @@
 }
 .contact-row{
   display:flex;
-  width:200px;
+  width:100px;
   animation: changeBg 5s infinite
   alternate linear;
 }
@@ -100,6 +100,11 @@
   text-align: center;
   padding-top:5rem;
 }
+.plans-carrer{
+  display:flex;
+  gap:3rem;
+  
+}
 .contact{
   background-color: #656565;
 }
@@ -115,6 +120,9 @@
   width: 2rem;
   height: 2rem;
 
+}
+.centered-div-webdev{
+  display:flex;
 }
 .social-media>img:hover{
   color: aqua;
@@ -174,6 +182,77 @@
   0%{transform: rotate(0deg);}
   100%{transform: rotate(360deg);}
 }
+/*footer*/
+.footer{
+  position: relative;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
 
-/*corosal css*/
+}
+.social-links{
+  display: flex;
+  gap: 3rem;
+}
+.social-links>img{
+  width: 6rem;
+  height: 2rem;
+
+}
+
+/*Responsve*/
+@media screen and (max-width:600px){
+
+.product-head>span{
+  font-size: 1.9rem;
+  align-self: center;
+  text-align:center;
+} 
+.centered-div-webdev{
+  flex-direction: column;
+}
+.product-img>img{
+  max-width: 15rem;
+  height:17rem;
+}
+.product-img-contact>img{
+  max-width: 15rem;
+  align-items: center;
+}
+.Scripttext{
+  flex-direction: column;
+}
+.right-t>h1{
+  font-size: 28px;
+}
+.portfolio-list{
+  flex-direction: column;
+}
+.product-form{
+  flex-direction: column;
+}
+.plans-carrer{
+flex-direction: column;
+align-items: center;
+}
+.catogory-1>span{
+  text-align: center;
+  align-self: center;
+  font-size: large;
+ 
+}
+.social-links>img{
+  gap: 2px;
+}
+.contact-form{
+  max-width: 13rem;
+}
+.catogory-2{
+  margin-left: 9%;
+}
+}
 

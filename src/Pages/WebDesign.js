@@ -7,7 +7,7 @@ const WebDesign = () => {
         <>
     <div className='web'>
     <video className="video" src={videoBg} autoplay='true' loop muted />
-      <div className='portfolio-head'>
+      <div className='portfolio-head' S>
       <span><AnimatedGradientText>Web Design</AnimatedGradientText></span>
       </div>
       <div className="centered-div"></div>
@@ -27,7 +27,7 @@ const WebDesign = () => {
             <button className="btn" style={{backgroundColor:"red",color:"white"}}> Get started</button> 
       </div>
       <div className='Scripttext'>
-      <div className='centered-div'>
+      <div className='centered-div-webdiv'>
         <div className='left-p'>
             
             <h1 style={{color:"orangered",fontSize:"32px",}} >Website designing company</h1>

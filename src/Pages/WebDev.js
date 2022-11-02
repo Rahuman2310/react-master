@@ -3,6 +3,7 @@ import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from "styled-components";
 import { keyframes } from "styled-components";
+import './index.css';
 const WebDev = () => {
   const form = useRef();
   
@@ -34,8 +35,8 @@ const WebDev = () => {
         <>
     <div className='web'>
     <video className="video" src={videoBg} autoplay='true' loop muted />
-      <div className='portfolio-head'>
-      <span><AnimatedGradientText>Web App Developement</AnimatedGradientText></span>
+      <div className="head">
+      <AnimatedGradientText  className='product-head'><span>Web Developement</span></AnimatedGradientText>
       </div>
 
       <div className='carrer-content'>
@@ -50,7 +51,7 @@ const WebDev = () => {
              languages, tools, technologies and frameworks..</p>
             <button className="btn" style={{backgroundColor:"red",color:"white"}}> Get started</button> 
       </div>
-      <div className='centered-div'>
+      <div className='centered-div-webdev'>
         <div className='left-p'>
             
             <h1 style={{color:"orangered",fontSize:"32px",}} >Web app Development</h1>
@@ -114,7 +115,7 @@ const WebDev = () => {
           </div>
         </div>
         
-      <div className='centered-div'>
+      <div className='centered-div-webdev'>
         <div className='left-p'>
             <div className="product-img">
                 <img src="./images/team2.jpg" alt="" style={{width:"38rem",borderRadius:"30px 30px"}}/>
@@ -131,7 +132,7 @@ const WebDev = () => {
             
         </div>
       </div>
-      <div className='centered-div'>
+      <div className='centered-div-webdev'>
         <div className='left-p'>
             
             <h1 style={{color:"orangered",fontSize:"35px",}} >Goal Focused</h1>

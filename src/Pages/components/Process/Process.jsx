@@ -12,6 +12,7 @@ const Process = () => {
       <span className='storke-text-1'>To shape</span>
     </div>
   </div>
+  
   )
 }
 

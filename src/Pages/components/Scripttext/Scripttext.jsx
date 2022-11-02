@@ -3,8 +3,10 @@ import "./Scripttext.css"
 
 const Scripttext = () => {
   return (
+    <>
+    <div className='center-div'>
     <div className="Scripttext" >
-        <div className='centered-div'>
+        <div className='centered-div-script'>
         <div className="left-t">
             <span className='right-headline'>WHAT WE DO</span>
             <div className='sub-text'>
@@ -42,6 +44,8 @@ const Scripttext = () => {
         </div>
         
     </div>
+    </div>
+    </>
   )
 }
 

@@ -9,7 +9,10 @@
     width:90%;
     
 }
-.centered-div{
+.centered-div-script{
+    display:flex;
+}
+/*.centered-div{
     padding: 0 2rem;
     padding-top:5rem;
     display: flex;
@@ -17,7 +20,7 @@
     gap: 3rem;
     display:flex;
     width:90%;
-}
+}*/
 
 .left-t{
     flex: 1 1;
@@ -74,4 +77,25 @@
    
     height: 2rem;
     width: 10rem;
+}
+
+/*responsive*/
+@media screen and (max-width:500px) {
+.right-t>img{
+   width:10rem;
+   height:14rem; 
+} 
+.sub-text>span{
+    font-size: 1.3rem;
+}
+.script-description{
+    font-size: 0.5rem;
+    align-items: center;
+}
+.details-v>div>span{
+    font-size: 0.8rem;
+}
+.centered-div-script{
+    flex-direction: column;
+}
 }
