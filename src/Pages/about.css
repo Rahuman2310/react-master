@@ -132,7 +132,7 @@
 }
 .social-links{
   display: flex;
-  gap: 4rem;
+  gap: 2.5rem;
 }
 .social-links>img{
   width: 2rem;
@@ -141,4 +141,46 @@
 }
 .social-links>img:hover{
   color: aqua;
+}
+
+
+
+@media screen and (max-width: 500px) {
+.aboutbody{
+  width: 75%;
+  align-items: center;
+
+}
+.row{
+  display: block;
+}
+.left-t{
+  width: 120%;
+  height: auto;
+}
+
+.right-t{
+ 
+  width: 120%;
+}
+.righthead{
+  text-align: center;
+}
+.tools1{
+ align-items: center;
+ padding-inline-start: 20%;
+}
+.grid-container{
+  align-items: center;
+  display:list-item ;
+  padding : 10%;
+  width: fit-content;
+}
+.history1{
+  text-align: center;
+  padding-left: 25%;
+}
+.social-links{
+  padding-right: 0.5px;
+}
 }

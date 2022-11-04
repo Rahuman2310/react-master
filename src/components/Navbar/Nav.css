@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    margin-top: 0;
+    width: 100%;
   }
   
   header {
@@ -7,6 +9,12 @@ body {
     color: #212529;
   }
   
+
+.imgsrc{
+  width: 300px;
+  height: fit-content;
+  float:left;
+}
   .nav-area {
     display: flex;
     align-items: center;
@@ -104,5 +112,85 @@ body {
     left: 100%;
     top: -7px;
   }
+  .nav{
+    list-style-type: none;
+    display: flex;
+     
+  }
   
- 
+  .ul{
+    display: flex;
+    padding-top: 10%;
+    list-style-type: none;
+  }
+
+  .hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #283b8b;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 8.7%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  
+  .hamburger:hover {
+    background-color: #2642af;
+  }
+  
+@media screen and (max-width: 500px) {
+  .hamburger {
+    display: block;
+  }
+  .imgsrc{
+    width: 200px;
+    padding-top: 3%;
+    padding-right: 15rem;
+  }
+
+  .navigation-menu text {
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 70%;
+    height: 100% ;
+    background-color: white;
+    border-top: solid ;
+    display: flex;
+    z-index: 99;
+  }
+
+  .navigation-menu li {
+    text-align: center;
+    padding: 5%;
+    margin: 0;
+  }
+
+  .navigation-menu li a {
+    color: #222;
+    width: 100%;
+    padding: -1.4px 0;
+  }
+
+  .navigation-menu li:hover {
+    background-color: #eee;
+  }
+
+  .navigation-menu.expanded text {
+    display:block;
+  }
+  .menu-items button{
+    color: #222;
+    padding-left: 0%;
+  }
+  .dropdown{
+    right: inherit;
+  }
+}

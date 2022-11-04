@@ -51,7 +51,7 @@ const About = () => {
 
                 <div class="right-t" style={{Color:"white"}}>
                   <h2 className="righthead">About US</h2>
-                  <h1 style={{color:"orangered"}}>Who we are</h1>
+                  <h1 className="righthead" style={{color:"orangered"}}>Who we are</h1>
                   <p style={{color:"white"}}><span className="righthead" >Nimatooz Smile Mobility Pvt Ltd.</span> is one of the best web design and development companies in Chennai, trichy & pudukottai. We design and develop web and mobile apps for startups, medium and large enterprises businesses. We create technologies, we will help to your brand identity is taken to the next level.</p>
       <p style={{color:"white"}}>As a top web development company, our main objective is to develop and build websites that are easy to navigate and designs to attract potential customers. We design websites that are responsive, practical mobile-friendly.</p>
        <p style={{color:"white"}}>We provide full services for the project from start to end and we even offer our best services like support and maintenance after the product launch and delivery We understand the value of client’s time and money, so we handle every project seriously and give the maximum output on the given deadline.</p>
@@ -61,7 +61,7 @@ const About = () => {
                 </div>
             
             <div className="tool">
-              <h1 style={{ textAlign:"center",color:"red"}}>Tools and technologies we use</h1>
+              <h1 className="tools1" style={{ textAlign:"center",color:"red"}}>Tools and technologies we use</h1>
               <div class="grid-container">
                 <div className="grid-container1" ><h6>Web app development</h6>
                   
@@ -161,10 +161,10 @@ const About = () => {
               </div>
             </div>
             <div className="history">
-              <h1 style={{color:"red"}}>OUR HISTORY</h1>
-              <h2 style={{color:"white"}}>History Begins In 2012</h2>
+              <h1 className="history1" style={{color:"red"}}>OUR HISTORY</h1>
+              <h2  className="history1" style={{color:"white"}}>History Begins In 2012</h2>
               <div style={{ width: '100%', height: '950px' }}>
-                <Chrono items={items}  /> 
+                <Chrono items={items} className="chrono" /> 
               </div>
             </div>
         </div>
